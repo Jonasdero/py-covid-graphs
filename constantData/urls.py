@@ -1,9 +1,11 @@
-confirmedGlobalUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+repository = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
 
-deathsGlobalUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+confirmedGlobalUrl = repository + 'time_series_covid19_confirmed_global.csv'
 
-recoveredGlobalUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"
+deathsGlobalUrl = repository + 'time_series_covid19_deaths_global.csv'
 
-confirmedUSUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
+recoveredGlobalUrl = repository + 'time_series_covid19_recovered_global.csv'
 
-deathsUSUrl = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
+confirmedUSUrl = repository + 'time_series_covid19_confirmed_US.csv'
+
+deathsUSUrl = repository + 'time_series_covid19_deaths_US.csv'
